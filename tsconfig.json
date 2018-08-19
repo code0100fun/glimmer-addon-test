@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "es2015",
-    "inlineSourceMap": true,
+    "target": "es2017",
     "inlineSources": true,
+    "inlineSourceMap": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "types": [
       "qunit"
-    ]
+    ],
+
+    "declaration": true,
+    "outDir": "dist",
+    "importHelpers": true,
   },
   "exclude": [
     "node_modules",
